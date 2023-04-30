@@ -10,7 +10,7 @@ class ui:
         self.background = master.configure(bg = "#A2DDEF")
 
         self.size_ = master.geometry("250x250")
-        self.button_ =tk.Button(master,text ="compress",borderwidth=5,relief="groove")
+        self.button_ =tk.Button(master,text ="compress",borderwidth=5,relief="groove",command=compress_file)
         
         self.button_.place(x=50,y=85)
         
